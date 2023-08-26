@@ -1,0 +1,63 @@
+.presentation{
+    background-color: rgb(117, 117, 117);
+    border-top: dotted 1px black;
+    height: 550px;
+    color: rgb(221, 221, 221);
+}
+
+.presentation-section{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.presentation-section h1 {
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.bloc-pre{
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.desc h2 {
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+.desc p {
+    font-size: 1.05rem;
+}
+
+.dev .icon {
+    display: flex;
+}
+
+.dev .icon div {
+    display: flex;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.dev .svg-inline--fa{
+    font-size: 6rem;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.dev .fa-html5 {
+color:rgb(187, 85, 2);
+}
+
+.dev .fa-node-js {
+    color:rgb(13, 148, 1);
+}

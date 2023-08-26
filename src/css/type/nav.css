@@ -1,0 +1,45 @@
+.navigation {
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    background-color: #333;
+    transition: 0.5s;
+}
+
+.fa-address-book{
+    color: rgb(221, 221, 221);
+    font-size: 6rem;
+}
+
+.bloc-menu:nth-child(1){
+    width: 100%;
+    height: 30%;
+}
+
+.bloc-menu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor:default;
+}
+
+.bloc-menu:nth-child(7){
+    position: absolute;
+    bottom: 30px;
+}
+
+.photo-profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+li:hover , .fa-address-book:hover{
+    color: white;
+    cursor: pointer;
+}

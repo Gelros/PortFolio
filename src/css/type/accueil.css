@@ -1,0 +1,42 @@
+.accueil{
+    background:  url("../../assets/dev.png") left/cover no-repeat ;
+    height: 100vh;
+    width: calc(100% - 300px);
+    position: relative;
+}
+
+.accueil-section{
+    margin-left: 50px ;
+    padding-top: 100px;
+}
+
+.accueil-section p {
+    font-size: 1.5rem;
+}
+
+.accueil-section h1 {
+    font-size: 6rem;
+}
+
+.Typewriter__wrapper{
+    font-size: 1.4rem;
+}
+
+.Typewriter__cursor {
+    font-size: 1.5rem;
+}
+
+.accueil-section .fa-linkedin-in{
+    color: rgb(45, 97, 194);
+}
+
+.accueil-section .svg-inline--fa{
+    color: rgb(49, 49, 49);
+    font-size: 2rem;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,38 @@
+[
+    {
+     "title": "Booki",
+     "description":"Transformation d'une maquette en site html et css",
+     "url":"https://github.com/Gelros/Transformer_maquette_ensite_HTML_CSS",
+     "image":"Booki.png"
+    },
+    {
+     "title": "Ohmyfood",
+     "description":"Dynamiser une site avec des animations css",
+     "url":"https://github.com/Gelros/Dynamisez_une_page_web_avec_des_animations_css",
+     "image":"Ohmyfood.png"
+     },
+     {
+      "title": "La panthère",
+      "description":"Optimiser le site 'La panthère' pour un meilleur référencement",
+      "url":"https://github.com/Gelros/Optimisez_un_site_web_existant",
+      "image":"Panthère.png"
+     },
+     {
+      "title": "Kanap",
+      "description":"Conception d'un site e-commerce",
+      "url":"https://github.com/Gelros/Construisez_un_site_e-commerce_en_JavaScript",
+      "image":"Kanap.png"
+     },
+     {
+        "title":"HotTakes",
+        "description":"Ce projet consiste à créer une API sécurisée pour une application d'avis gastronomiques",
+        "url":"https://github.com/Gelros/API-Construisez_une_API_s-curis-e_pour_une_application_d-avis_gastronomiques",
+        "image":"HotTakes.png"
+     },
+     {
+        "title":"Kasa",
+        "description":"Kasa est une application web de location immobilière conçue avec React",
+        "url":"https://github.com/Gelros/Kasa",
+        "image":"Kasa.png"
+     }
+]

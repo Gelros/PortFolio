@@ -1,0 +1,44 @@
+.portfolio-section{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 700px);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap:30px;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  border-top: dotted 1px black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-portfolio {
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.411);
+}
+
+.class-active {
+    position: absolute;
+    background:#14171db9;
+    z-index: 99;
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(76, 206, 238);
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: 0.2s;
+    font-weight: 500;
+  }
+  
+  .class-active:hover{
+    opacity: 1;
+  }
+
+  .centrage {
+    text-align: center;
+    margin-top:250px ;
+  }

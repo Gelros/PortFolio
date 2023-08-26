@@ -1,0 +1,67 @@
+@media screen and (max_width: 1000px) {
+    .comp-section{
+        padding: 25px;
+    }
+    
+    .comp-section h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .comp-grille{
+        margin:15px 0;
+        display: flex;
+        justify-content:none;
+        flex-direction: column;
+    }
+    
+    .grille-container{
+        margin-bottom:25px ;
+    }
+    
+    .grille-container h3{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    
+    .percent{
+        margin-bottom: 10px;
+    }
+    
+    .note{
+        position: relative;
+        margin-bottom: 10px;
+        height: 15px;
+        width: 300px;
+        background-color: rgb(77, 77, 77);
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    .note-2{
+        position: absolute;
+        height: 13px;
+        background-color: rgba(70, 70, 233, 0.5);
+        border-radius: 5px;
+    }
+    
+    .note .a{
+        width: 225px;
+    }
+    
+    .note .b{
+        width: 195px;
+    }
+    
+    .note .c{
+        width: 255px;
+    }
+    
+    .note .d, .f{
+        width: 240px;
+    }
+    
+    .note .e{
+        width: 150px;
+    }
+}

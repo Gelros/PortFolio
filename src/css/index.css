@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Nunito:wght@200&display=swap');
+@import "./type/settings.css";
+@import "./type/nav.css";
+@import "./type/accueil.css";
+@import "./type/presentation.css";
+@import "./type/portfolio.css";
+@import "./type/competence.css";
+@import "./type/contact.css";
+/*Responsive*/
+@import "./responsive/nav.css";
+@import "./responsive/accueil.css";
+@import "./responsive/settings.css";
+@import "./responsive/competences.css";
+
+*, ::before, ::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+input{
+  color: black;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    .navigation{
+        width: 150px;
+        height: 100vh;
+    }
+
+    .photo-profil{
+        width: 100px;
+        height:100px
+    }
+
+    .bloc-menu {
+        font-size: 0.8rem;
+        transform: translateX(-300px);
+        transition: 0.5s;
+    }
+
+    .bloc-menu-visible{
+        transform: translateX(0px)!important
+    }
+
+    .PP {
+
+        transition: 0.5s;
+    }
+
+}
