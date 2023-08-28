@@ -6,6 +6,12 @@
     align-items: center;
     background-color: #333;
     transition: 0.5s;
+    z-index: 99999;
+}
+
+.PP{
+    margin-top:10px;
+    display: none;
 }
 
 .fa-address-book{
@@ -26,6 +32,7 @@
     align-items: center;
     font-size: 1.3rem;
     cursor:default;
+    margin-top: 50px;
 }
 
 .bloc-menu:nth-child(7){

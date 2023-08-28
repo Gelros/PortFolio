@@ -1,4 +1,4 @@
-@media screen and (max_width: 1000px) {
+@media screen and (max-width: 1600px) {
     .comp-section{
         padding: 25px;
     }
@@ -14,54 +14,40 @@
         justify-content:none;
         flex-direction: column;
     }
-    
-    .grille-container{
-        margin-bottom:25px ;
+
+    .grille-container {
+        text-align: center;
+        justify-content: center;
     }
     
-    .grille-container h3{
-        font-size: 1.3rem;
-        margin-bottom: 10px;
+    .note {
+        margin: auto;
     }
-    
-    .percent{
-        margin-bottom: 10px;
-    }
-    
+}
+
+@media screen and (max-width: 800px) {
     .note{
-        position: relative;
-        margin-bottom: 10px;
-        height: 15px;
-        width: 300px;
-        background-color: rgb(77, 77, 77);
-        border: 1px solid black;
-        border-radius: 5px;
+        width: 400px;
     }
-    
-    .note-2{
-        position: absolute;
-        height: 13px;
-        background-color: rgba(70, 70, 233, 0.5);
-        border-radius: 5px;
-    }
-    
+
     .note .a{
-        width: 225px;
+        width: 300px;
     }
     
     .note .b{
-        width: 195px;
+        width: 260px;
     }
     
     .note .c{
-        width: 255px;
+        width: 340px;
     }
     
     .note .d, .f{
-        width: 240px;
+        width: 320px;
     }
     
     .note .e{
-        width: 150px;
+        width: 200px;
     }
+
 }

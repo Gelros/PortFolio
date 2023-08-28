@@ -11,6 +11,9 @@
 @import "./responsive/accueil.css";
 @import "./responsive/settings.css";
 @import "./responsive/competences.css";
+@import "./responsive/presentation.css";
+@import "./responsive/portfolio.css";
+@import "./responsive/contact.css";
 
 *, ::before, ::after{
   box-sizing: border-box;

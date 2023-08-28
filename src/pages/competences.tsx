@@ -3,7 +3,7 @@ import Competence from '../components/Competence';
 
 const competences = () => {
     return (
-        <div id='competence' className='competence  main'>
+        <div className='competence  main' id='competence' >
             <Competence/>
         </div>
     );

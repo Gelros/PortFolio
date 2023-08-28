@@ -1,8 +1,14 @@
 @media screen and (max-width: 1000px) {
     .navigation{
-        width: 150px;
+        width: 50px;
         height: 100vh;
+        cursor: pointer;
     }
+
+    .navigation:hover{
+        width: 150px;
+    }
+
 
     .photo-profil{
         width: 100px;

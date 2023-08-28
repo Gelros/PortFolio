@@ -1,13 +1,14 @@
 .presentation{
     background-color: rgb(117, 117, 117);
     border-top: dotted 1px black;
-    height: 550px;
+    border-bottom: dotted 1px black;
+    height: 100%;
     color: rgb(221, 221, 221);
 }
 
 .presentation-section{
     width: 100%;
-    margin-top: 150px;
+    margin: 75px 0;
     text-align: center;
 }
 

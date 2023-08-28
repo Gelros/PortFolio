@@ -1,5 +1,6 @@
 @media screen and (max-width: 1000px) {
     .main{
-        width: calc(100% - 150px);
+        width: calc(100% - 50px);
+        transition: 0.5s;
     }
 }
