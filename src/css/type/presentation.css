@@ -41,11 +41,11 @@
 
 .dev .icon {
     display: flex;
+    justify-content: flex-end;
 }
 
 .dev .icon div {
-    display: flex;
-    margin: auto;
+    margin: auto 0;
     font-size: 1.5rem;
 }
 
