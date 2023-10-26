@@ -25,29 +25,29 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .note{
-        width: 400px;
+        width: 300px;
     }
 
     .note .a{
-        width: 300px;
+        width: 250px;
     }
     
     .note .b{
-        width: 260px;
+        width: 195px;
     }
     
     .note .c{
-        width: 340px;
+        width: 255px;
     }
     
     .note .d, .f{
-        width: 320px;
+        width: 240px;
     }
     
     .note .e{
-        width: 200px;
+        width: 150px;
     }
 
 }

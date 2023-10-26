@@ -37,3 +37,20 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .presentation-section h1{
+        font-size: 2rem;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .bloc-pre .desc h2{
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .bloc-pre .desc p{
+        font-size: 1rem;
+        margin-bottom: 20px;
+      }
+}
