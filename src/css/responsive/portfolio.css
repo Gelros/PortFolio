@@ -77,7 +77,7 @@
       background:#14171db9;
       z-index: 99;
       width: 350px;
-      height: 350px;
+      height: 250px;
       border-radius: 10px;
       text-decoration: none;
       color: rgb(76, 206, 238);
@@ -85,5 +85,9 @@
       opacity: 0;
       transition: 0.2s;
       font-weight: 500;
+    }
+
+    .class-active .centrage{
+     margin: 90px 0;
     }
 }
