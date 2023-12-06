@@ -11,7 +11,7 @@
 }
 
 .comp-grille{
-    margin:30px 0;
+    margin:50px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -29,44 +29,26 @@
     margin-bottom: 10px;
 }
 
-.percent{
-    margin-bottom: 10px;
+.grille .grille-container .svg-inline--fa{
+font-size: 3rem;
 }
 
-.note{
-    position: relative;
-    margin: auto;
-    margin-bottom: 10px;
-    height: 22px;
-    width: 600px;
-    background-color: rgb(77, 77, 77);
-    border: 1px solid black;
-    border-radius: 5px;
+.js .fa-node-js {
+    color:yellow;
 }
 
-.note-2{
-    position: absolute;
-    height: 20px;
-    background-color: rgba(70, 70, 233, 0.5);
-    border-radius: 5px;
+.node .fa-node-js {
+    color:rgb(13, 148, 1);
 }
 
-.note .a{
-    width: 450px;
+.fa-react{
+    color: rgb(81, 179, 235);
 }
 
-.note .b{
-    width: 390px;
+.fa-t {
+    color: rgb(48, 48, 163);
 }
 
-.note .c{
-    width: 510px;
-}
-
-.note .d, .f{
-    width: 480px;
-}
-
-.note .e{
-    width: 300px;
+.fa-github {
+    color: black;
 }
