@@ -29,15 +29,15 @@
     height: 10%;
     display: flex;
     justify-content: center;
+    text-align: start;
     align-items: center;
     font-size: 1.3rem;
     cursor:default;
     margin-top: 50px;
 }
 
-.bloc-menu:nth-child(7){
-    position: absolute;
-    bottom: 30px;
+.bloc-menu:nth-child(3){
+   margin-top: 70px !important
 }
 
 .photo-profil {

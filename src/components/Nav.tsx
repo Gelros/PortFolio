@@ -3,6 +3,7 @@ import Pp from "./Pp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { Link} from "react-scroll"
+import Logo from "../assets/Logo-bg-n.png"
 
 const Nav = () => {
   const [visible, setVisible] = useState(false);
@@ -22,6 +23,16 @@ const Nav = () => {
       onMouseLeave={mouseLeave}
     >
       <Pp visible={visible} />
+      <Link
+        to="accueil"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className={`bloc-menu ${visible ? "bloc-menu-visible" : ""}`}
+      >
+        <img src={Logo} alt="logo pf" />
+      </Link>
       <Link
         className={`bloc-menu ${visible ? "bloc-menu-visible" : ""}`}
         to="accueil"
@@ -76,16 +87,6 @@ const Nav = () => {
       >
         {" "}
         <li>Contact</li>{" "}
-      </Link>
-      <Link
-        to="contact"
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-        className={`bloc-menu ${visible ? "bloc-menu-visible" : ""}`}
-      >
-        <FontAwesomeIcon icon={faAddressBook} />
       </Link>
     </div>
   );
