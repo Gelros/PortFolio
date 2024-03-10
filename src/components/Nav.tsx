@@ -2,7 +2,7 @@ import { useState } from "react";
 import Pp from "./Pp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
-import { Link, Element } from "react-scroll"
+import { Link} from "react-scroll"
 
 const Nav = () => {
   const [visible, setVisible] = useState(false);

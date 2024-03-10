@@ -26,7 +26,6 @@
     height: 450px;
     border-radius: 10px;
     text-decoration: none;
-    color: rgb(76, 206, 238);
     font-size: 1.5rem;
     opacity: 0;
     transition: 0.2s;
@@ -38,6 +37,18 @@
   }
 
   .centrage {
+    position: absolute;
     text-align: center;
-    margin:100px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centrage h1{
+    margin-bottom: 10px;
+    color: rgb(76, 206, 238);
+  }
+
+  .centrage p{
+    color: white;
   }

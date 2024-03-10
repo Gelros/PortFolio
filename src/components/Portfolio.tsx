@@ -8,8 +8,8 @@ const Portfolio = (props:any) => {
                <div key={el.title} data-aos="zoom-in">
                     <NavLink to={el.url} className="class-active" target='_blank'>
                         <div className='centrage'>
-                          <div>{el.title}</div>
-                          <div>{el.description}</div>
+                          <h1>{el.title}</h1>
+                          <p>{el.description}</p>
                         </div>
                     </NavLink>
                     <img className="img-portfolio" src={require(`../assets/${el.image}`)} alt=''/>
