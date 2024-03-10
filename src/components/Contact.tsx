@@ -20,12 +20,12 @@ const Contact = () => {
         <div className='contact-section' data-aos="zoom-in">
             <form ref={form} onSubmit={sendEmail}>
               <label>Nom</label>
-              <input type="text" name="user_name" />
+              <input type="text" name="user_name" placeholder='Veuillez inscrire votre nom et prénom'/>
               <label>Email</label>
-              <input type="email" name="user_email" />
+              <input type="email" name="user_email" placeholder='Veuillez renseigner votre email'/>
               <label>Message</label>
               <textarea name="message" />
-              <input className="submit" type="submit" value="Envoyer" />
+              <input className="submit" type="submit" value="Envoyer" placeholder='Écrivez-moi ce que vous voulez me dire'/>
             </form>
         </div>
     );
