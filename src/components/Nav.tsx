@@ -3,7 +3,7 @@ import Pp from "./Pp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { Link} from "react-scroll"
-import Logo from "../assets/Logo-bg-n.png"
+import Logo from "../assets/LogoPf2.png"
 
 const Nav = () => {
   const [visible, setVisible] = useState(false);
