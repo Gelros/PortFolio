@@ -1,19 +1,19 @@
 [
     {
      "title": "Valorant App",
-     "description":"Site perso qui référencie des informations sur le jeu Valorant (En cours)",
+     "description":"Site qui référencie des informations sur le jeu Valorant (En cours)",
      "url":"https://github.com/Gelros/Valorant/tree/main",
      "image":"Val.png"
     },
     {
      "title": "Ohmyfood",
-     "description":"Dynamiser une site avec des animations css",
+     "description":"Dynamiser un site avec des animations css",
      "url":"https://github.com/Gelros/Dynamisez_une_page_web_avec_des_animations_css",
      "image":"OHMYFOOD.png"
      },
      {
       "title": "La panthère",
-      "description":"Optimiser le site 'La panthère' pour un meilleur référencement",
+      "description":"Site dédié au SEO (Search Engine Optimisation)",
       "url":"https://github.com/Gelros/Optimisez_un_site_web_existant",
       "image":"PANTHERE.webp"
      },
